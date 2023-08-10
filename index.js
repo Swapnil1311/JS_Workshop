@@ -251,16 +251,16 @@
 
 // Assignment - 10
 
-// let num = prompt('Enter the number : ');
-// MultiplicationTable = ((num)=>{
-//     if(num<=0){
-//         console.log('Enter the valid nimber');
-//         return;
-//     }
-//     console.log(`Multiplication table for ${num}:`);
-//     for(let i = 1; i<=10; i++){
-//         console.log(`${num} * ${i} = ${num * i}`);
-//     }
-// })
+let num = prompt('Enter the number : ');
+MultiplicationTable = ((num)=>{
+    if(num<=0){
+        console.log('Enter the valid number');
+        return;
+    }
+    console.log(`Multiplication table for ${num}:`);
+    for(let i = 1; i<=10; i++){
+        console.log(`${num} * ${i} = ${num * i}`);
+    }
+})
 
-// console.log(MultiplicationTable(num))
+console.log(MultiplicationTable(num));
